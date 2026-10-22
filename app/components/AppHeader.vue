@@ -9,13 +9,13 @@
     <nav class="mx-auto flex h-full w-full items-center justify-between px-6" dir="rtl">
       <div class="flex h-full items-center gap-7">
         <NuxtLink to="/" class="flex shrink-0 items-center">
-          <NuxtImg
-            src="/gal_logo.png"
-            alt="Ghasemi Airlines"
-            width="100"
-            height="48"
-            class="h-auto w-[100px] object-contain"
-          />
+            <NuxtImg
+                src="/img/gal_logo.jpg"
+                alt="Ghasemi Airlines"
+                width="220"
+                height="60"
+                class="h-10 w-auto object-contain"
+            />
         </NuxtLink>
 
         <div class="flex h-full items-center gap-4 whitespace-nowrap">
