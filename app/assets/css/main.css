@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Alibaba";
+  src: url("../fonts/Alibaba-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alibaba-bold";
+  src: url("../fonts/Alibaba-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Alibaba", sans-serif;
+}
+
+body {
+    direction: rtl;
+  font-family: Alibaba, sans-serif;
+}
