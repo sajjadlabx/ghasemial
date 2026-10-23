@@ -1,11 +1,9 @@
 <template>
-  <AppHeader />
   <BusHero />
   <AppServices />
   <AppSlider />
   <AppApplications />
   <AppFaq />
-  <AppFooter />
 </template>
 
 <script setup>

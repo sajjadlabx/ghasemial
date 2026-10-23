@@ -1,11 +1,9 @@
 <template>
-  <AppHeader />
   <TrainHero />
   <AppServices />
   <AppSlider />
   <AppApplications />
   <AppFaq />
-  <AppFooter />
 </template>
 
 <script setup>

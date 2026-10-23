@@ -1,11 +1,9 @@
 <template>
-  <AppHeader />
   <FlightHero />
   <AppServices />
   <AppSlider />
   <AppApplications />
   <AppFaq />
-  <AppFooter />
 </template>
 
 <script setup>
