@@ -19,7 +19,7 @@
         >
           <div class="mb-5 flex items-center gap-3 items-center justify-center">
             <NuxtLink 
-              class="flex flex-col items-center gap-3 rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-800 w-xs cursor-pointer"
+              class="flex flex-col items-center gap-3 bg-white text-blue-700 border-b-3 px-5 py-2.5 text-sm font-semibold transition w-xs cursor-pointer"
             >
             <Icon name="lucide:plane" size="25" />
              <span>
@@ -28,7 +28,8 @@
           </NuxtLink>
             <NuxtLink
               class="flex flex-col items-center gap-3 rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-600 transition hover:text-blue-700 w-xs cursor-pointer"
-            >
+               to="/train-ticket"
+              >
             <Icon name="lucide:train" size="25" />
              <span>
                قطار
@@ -36,7 +37,8 @@
           </NuxtLink>
             <NuxtLink
               class="flex flex-col items-center gap-3 rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-600 transition hover:text-blue-700 w-xs cursor-pointer"
-            >
+              to="/bus-ticket"
+              >
             <Icon name="lucide:bus" size="25" />
              <span>
                اتوبوس

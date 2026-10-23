@@ -1,7 +1,6 @@
 
 <template>
   <footer class="bg-slate-50 text-gray-700" dir="rtl">
-    <!-- Services -->
     <section class="border-b border-gray-200">
       <div class="mx-auto max-w-7xl px-4">
         <ul class="grid grid-cols-1 gap-6 py-8 md:grid-cols-3 md:gap-8">
@@ -32,7 +31,6 @@
       </div>
     </section>
 
-    <!-- Main Footer -->
     <section class="border-b border-gray-200">
       <div class="mx-auto max-w-7xl px-4 py-10">
         <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -73,7 +71,6 @@
             </div>
           </div>
 
-          <!-- Quick Links -->
           <div>
             <h3 class="mb-5 text-base font-bold text-slate-900">
               دسترسی سریع
@@ -91,7 +88,6 @@
             </ul>
           </div>
 
-          <!-- Services Links -->
           <div>
             <h3 class="mb-5 text-base font-bold text-slate-900">
               خدمات مسافران
@@ -108,8 +104,6 @@
               </li>
             </ul>
           </div>
-
-          <!-- Contact -->
           <div>
             <h3 class="mb-5 text-base font-bold text-slate-900">
               ارتباط با ما
@@ -171,7 +165,6 @@
       </div>
     </section>
 
-    <!-- Copyright -->
     <section>
       <div
         class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-5 text-center text-xs text-gray-500 sm:flex-row sm:text-right"
