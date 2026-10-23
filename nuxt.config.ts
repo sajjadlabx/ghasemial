@@ -10,4 +10,21 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+    app: {
+    head: {
+      title: 'بلیط هواپیما - خرید بلیط هواپیما | قاسمی ایرلاینز',
+      titleTemplate: '%s',
+      htmlAttrs: {
+        lang: 'fa',
+        dir: 'rtl',
+      },
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: '/favicon.png',
+        },
+      ],
+    },
+  },
 })
