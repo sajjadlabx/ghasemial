@@ -27,7 +27,7 @@
              </span>
           </NuxtLink>
             <NuxtLink
-              class="flex flex-col items-center gap-3 bg-white text-blue-700 border-b-3 px-5 py-2.5 text-sm font-semibold transition w-xs cursor-pointer"
+              class="flex flex-col items-center gap-3 bg-white text-blue-700 border-b-5 px-5 py-2.5 text-sm font-semibold transition w-xs cursor-pointer"
                to="/train-ticket"
               >
             <Icon name="lucide:train" size="25" />
@@ -79,7 +79,7 @@
                 class="flex h-12 w-full items-center justify-center gap-2 rounded-lg cursor-pointer bg-blue-700 px-4 font-semibold text-white transition hover:bg-blue-800"
               >
                 <Icon name="lucide:search" size="19" />
-                جست‌وجوی پرواز
+                جست‌وجوی قطار
               </button>
             </div>
           </div>

@@ -19,7 +19,7 @@
         >
           <div class="mb-5 flex items-center gap-3 items-center justify-center">
             <NuxtLink 
-              class="flex flex-col items-center gap-3 bg-white text-blue-700 border-b-3 px-5 py-2.5 text-sm font-semibold transition w-xs cursor-pointer"
+              class="flex flex-col items-center gap-3 bg-white text-blue-700 border-b-5 px-5 py-2.5 text-sm font-semibold transition w-xs cursor-pointer"
             >
             <Icon name="lucide:plane" size="25" />
              <span>
