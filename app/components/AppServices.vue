@@ -1,9 +1,8 @@
 <template>
-  <section class="mx-auto mt-46 w-full max-w-6xl px-4">
+  <section id="services" class="mx-auto mt-46 px-4">
     <h3 class="mb-4 text-center text-xl font-bold text-gray-800">
       سایر خدمات قاسمی ایرلاینز
     </h3>
-
     <div class="flex flex-row items-center justify-evenly h-20 w-full border border-gray-300 rounded-md">
       <div class="flex flex-row items-center">
         <NuxtImg src="/img/cardtravel.svg" />
@@ -34,5 +33,7 @@
 </script>
 
 <style>
-
+#services{
+  width: 1180px;
+}
 </style>

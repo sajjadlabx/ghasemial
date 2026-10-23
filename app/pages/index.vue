@@ -1,11 +1,13 @@
-<template class="flex flex-col">
+<template>
   <AppHeader />
   <FlightHero />
   <AppServices />
   <AppSlider />
+  <AppApplications />
 </template>
 
 <script setup>
+import AppApplications from '~/components/AppApplications.vue';
 import AppHeader from '~/components/AppHeader.vue';
 import AppServices from '~/components/AppServices.vue';
 import AppSlider from '~/components/AppSlider.vue';
